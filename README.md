@@ -1,6 +1,6 @@
 <h1>Peppi esimerkki</h1>
 
-<p>Tämän esimerkin on tarkoitus auttaa ohejlmistoprojektin pankkiautomaatin suunnittelussa ja toteutuksessa. Esimerkin aiheena on Peppi oppilasrekisteriä vastaavan ohjelmiston rakentaminen. Esimerkin sovellukseen on otettu vain pieni osuus Peppi järjestelemästä.</p>
+<p>Tämän esimerkin on tarkoitus auttaa ohjelmistoprojektin pankkiautomaatin suunnittelussa ja toteutuksessa. Esimerkin aiheena on Peppi oppilasrekisteriä vastaavan ohjelmiston rakentaminen. Esimerkin sovellukseen on otettu vain pieni osuus Peppi järjestelemästä.</p>
 
 <h2>Järjestelmän toiminnan kuvaus</h2>
 <p>
@@ -17,7 +17,7 @@
 <h2>Käyttötapauskaavio</h2>
 <p>
 Edellisten tarinoiden perusteella luotiin seuraava käyttötapauskaavio 
-<br><src="myUseCase.png">
+<br><img src="myUseCase.png">
 </p>
 
 
