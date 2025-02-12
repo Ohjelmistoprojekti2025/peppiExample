@@ -17,25 +17,25 @@
 <h2>Käyttötapauskaavio</h2>
 <p>
 Edellisten tarinoiden perusteella luotiin seuraava käyttötapauskaavio 
-<br><img src="myUseCase.png">
+<br><img src="./UML/myUseCase.png">
 </p>
 
 <h2>Viestiyhteyskaavio</h2>
 <p>
 Seuraavaksi luotiin viestiyhteyskaavio
-<br><img src="mySequence.png">
+<br><img src="./UML/mySequence.png">
 </p>
 
 <h2>Käyttöönottokaavio</h2>
 <p>
 Seuraavaksi suunniteltiin ohjelmiston arkkitehtuuria. Päätettiin, että käytetään MySQL-tietokantaa, REST API tehdään käyttäen Node.js/Express.js alustaa ja käyttäjän sovellus tehtään C++ ohjelointikielellä käyttäen Qt-frameworkkiä. Tällä perusteella laadittiin käyttöönottokaavio
-<br><img src="myDeployment.png">
+<br><img src="./UML/myDeployment.png">
 </p>
 
 <h2>Komponenttikaavio</h2>
 <p>
 Seuraavaksi suunniteltiin ohjelmiston komponentit ja laadittiin komponenttikaavio
-<br><img src="myComponent.png">
+<br><img src="./UML/myComponent.png">
 </p>
 
 <h2>Luokkakaavio</h2>
@@ -43,25 +43,25 @@ Seuraavaksi suunniteltiin ohjelmiston komponentit ja laadittiin komponenttikaavi
 Seuraavaksi suunniteltiin ohjelmiston luokat ja laadittiin luokkakaaviot
 </p>
 <b>REST API:n luokkakaavio</b> <br>
-<br><img src="myRestApiClass.png">
+<br><img src="./UML/myRestApiClass.png">
 </p>
 </p>
 <b>Qt sovelluksen luokkakaavio</b> <br>
-<br><img src="myPeppiClass.png">
+<br><img src="./UML/myPeppiClass.png">
 </p>
 <hr>
 <h2>Tietokannan suunnittelu</h2>
 <p>
 Aluksi tietokannan ER-kaaviota hahmoteltiin kynällä ja paperilla ja saatiin seuraavat kuvat:
 <br>
-<img src="er_plan.png">
+<img src="./UML/er_plan.png">
 <br>
 Kaaviota piirettiin siis niin pitkälle, että todettiin ettei monen-suhde-moneen yhteyksiä ole.
 </p>
 <p>
 Tämän jälkeen tietokannan taulut luotiin MySQL-Workbench sovelluksella. Tauluihin merkittiin kentät, perusavaimet ja luotiin viiteavaimien avulla viite-eheys. Tämän jälkeen Workbenchillä generoitiin tietokanta ja ER-kaavio. Nyt tietokanta ja sen ER-malli ovat varmasti yhtäpitävät.
 <br>
-<img src="er_final.png">
+<img src="./UML/er_final.png">
 <br>
 
 </p>
