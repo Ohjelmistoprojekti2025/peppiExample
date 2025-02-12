@@ -1,4 +1,25 @@
-<h1>plantUML</h1>
+<h1>Peppi esimerkki</h1>
+
+<p>Tämän esimerkin on tarkoitus auttaa ohejlmistoprojektin pankkiautomaatin suunnittelussa ja toteutuksessa. Esimerkin aiheena on Peppi oppilasrekisteriä vastaavan ohjelmiston rakentaminen. Esimerkin sovellukseen on otettu vain pieni osuus Peppi järjestelemästä.</p>
+
+<h2>Järjestelmän toiminnan kuvaus</h2>
+<p>
+    Sovellukseen toteutetaan seuraavat toiminnot:
+    <ul>
+    <li>Voidakseen katsoa henkilötietonsa opiskelijan on kirjauduttava sovellukseen.</li>
+    <li>Voidakseen katsoa arvosanansa opiskelijan on kirjauduttava sovellukseen.</li>
+    <li>Voidakseen ilmoittautua kurssille opiskelijan on kirjauduttava sovellukseen.</li>
+    <li>Jos kirjautuminen onnistuu opiskelijalle avautuu valikko, josta hän voi valita joko katso henkilötiedot tai katso arvosanat.</li>
+    <li>Mikäli kirjautuminen ei onnistu, palataan kirjautumisruudulle.</li>
+    </ul>
+</p>
+
+<h2>Käyttötapauskaavio</h2>
+<p>
+Edellisten tarinoiden perusteella luotiin seuraava käyttötapauskaavio 
+<br><src="myUseCase.png">
+</p>
+
 
 Voit ladata sen sivulta <a href="https://plantuml.com/download" target="_blank">https://plantuml.com/download</a>. 
 
