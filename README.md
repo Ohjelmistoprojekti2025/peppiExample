@@ -63,6 +63,12 @@ Tämän jälkeen tietokannan taulut luotiin MySQL-Workbench sovelluksella. Taulu
 <br>
 <img src="./UML/er_final.png">
 <br>
-
+</p>
+<h2>Käyttöliittymän suunnittelu</h2>
+<p>
+Käyttöliittymää hahmoteltiin seuraavissa kuvissa. Tarkoitus olisi piirtää paremmat kuvat ennen toteutusta. 
+<br>
+<img src="./UML/frontend_plan.png">
+<br>  
 </p>
 
