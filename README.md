@@ -26,6 +26,12 @@ Seuraavaksi luotiin viestiyhteyskaavio
 <br><img src="mySequence.png">
 </p>
 
+<h2>Käyttöönottokaavio</h2>
+<p>
+Seuraavaksi suunniteltiin ohjelmiston arkkitehtuuria ja laadittiin käyttöönottokaavio
+<br><img src="myDeployment.png">
+</p>
+
 
 Voit ladata sen sivulta <a href="https://plantuml.com/download" target="_blank">https://plantuml.com/download</a>. 
 
