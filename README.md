@@ -20,6 +20,12 @@ Edellisten tarinoiden perusteella luotiin seuraava käyttötapauskaavio
 <br><img src="myUseCase.png">
 </p>
 
+<h2>Viestiyhteyskaavio</h2>
+<p>
+Seuraavaksi luotiin viestiyhteyskaavio
+<br><img src="mySequence.png">
+</p>
+
 
 Voit ladata sen sivulta <a href="https://plantuml.com/download" target="_blank">https://plantuml.com/download</a>. 
 
