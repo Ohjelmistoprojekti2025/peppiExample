@@ -49,37 +49,20 @@ Seuraavaksi suunniteltiin ohjelmiston luokat ja laadittiin luokkakaaviot
 <b>Qt sovelluksen luokkakaavio</b> <br>
 <br><img src="myPeppiClass.png">
 </p>
+<hr>
+<h2>Tietokannan suunnittelu</h2>
+<p>
+Aluksi tietokannan ER-kaaviota hahmoteltiin kynällä ja paperilla ja saatiin seuraavat kuvat:
+<br>
+<img src="er_plan.png">
+<br>
+Kaaviota piirettiin siis niin pitkälle, että todettiin ettei monen-suhde-moneen yhteyksiä ole.
+</p>
+<p>
+Tämän jälkeen tietokannan taulut luotiin MySQL-Workbench sovelluksella. Tauluihin merkittiin kentät, perusavaimet ja luotiin viiteavaimien avulla viite-eheys. Tämän jälkeen Workbenchillä generoitiin tietokanta ja ER-kaavio. Nyt tietokanta ja sen ER-malli ovat varmasti yhtäpitävät.
+<br>
+<img src="er_final.png">
+<br>
 
+</p>
 
-
-**********************************
-
-Voit ladata sen sivulta <a href="https://plantuml.com/download" target="_blank">https://plantuml.com/download</a>. 
-
-Riittää siis, että lataat tuon jar-tiedoston, mutta sovelluksen ajamiseksi tarvitset Javan.
-
-Minulla on esimerkiksi tiedosto <b>myComponent.puml</b> ja voin generoida siitä png-kuvan komennolla
-
-<pre>
-java -jar plantuml-1.2025.0.jar myComponent.puml
-</pre>
-
-Repossa on on koodit 
-<ul>
-    <li>käyttöönottokaaviolle myBase.puml</li>
-    <li>komponenttikaaviolle myComponent.puml</li>
-    <li>käyttötapauskaaviolle myUseCase.puml</li>
-    <li>Qt:n luokkakaaviolle myPeppiClass.puml</li>
-    <li>REST API:n luokkakaaviolle myRestApiClass.puml</li>
-</ul>
-
-<h2>plantUML koodiopas</h2>
-
-Opas löytyy sivulta <a href="https://plantuml.com/guide" target="_blank">https://plantuml.com/guide</a>
-
-<h2>Esimerkkikoodien kuvat</h2>
-    <h3>käyttöönottokaaviolle </h3> <img src="myBase.png">
-    <h3>komponenttikaaviolle </h3> <img src="myComponent.png">
-    <h3>käyttötapauskaaviolle </h3> <img src="myUseCase.png">
-    <h3>Qt:n luokkakaaviolle </h3> <img src="myPeppiClass.png">
-    <h3>REST API:n luokkakaaviolle </h3> <img src="myRestApiClass.png">
