@@ -32,6 +32,14 @@ Seuraavaksi suunniteltiin ohjelmiston arkkitehtuuria ja laadittiin käyttöönot
 <br><img src="myDeployment.png">
 </p>
 
+<h2>Komponenttikaavio</h2>
+<p>
+Seuraavaksi suunniteltiin ohjelmiston komponentit ja laadittiin komponenttikaavio
+<br><img src="myComponent.png">
+</p>
+
+
+**********************************
 
 Voit ladata sen sivulta <a href="https://plantuml.com/download" target="_blank">https://plantuml.com/download</a>. 
 
