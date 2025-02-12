@@ -28,7 +28,7 @@ Seuraavaksi luotiin viestiyhteyskaavio
 
 <h2>Käyttöönottokaavio</h2>
 <p>
-Seuraavaksi suunniteltiin ohjelmiston arkkitehtuuria ja laadittiin käyttöönottokaavio
+Seuraavaksi suunniteltiin ohjelmiston arkkitehtuuria. Päätettiin, että käytetään MySQL-tietokantaa, REST API tehdään käyttäen Node.js/Express.js alustaa ja käyttäjän sovellus tehtään C++ ohjelointikielellä käyttäen Qt-frameworkkiä. Tällä perusteella laadittiin käyttöönottokaavio
 <br><img src="myDeployment.png">
 </p>
 
