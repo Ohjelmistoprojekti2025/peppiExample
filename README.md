@@ -38,6 +38,19 @@ Seuraavaksi suunniteltiin ohjelmiston komponentit ja laadittiin komponenttikaavi
 <br><img src="myComponent.png">
 </p>
 
+<h2>Luokkakaavio</h2>
+<p>
+Seuraavaksi suunniteltiin ohjelmiston luokat ja laadittiin luokkakaaviot
+</p>
+<b>REST API:n luokkakaavio</b> <br>
+<br><img src="myRestApiClass.png">
+</p>
+</p>
+<b>Qt sovelluksen luokkakaavio</b> <br>
+<br><img src="myPeppiClass.png">
+</p>
+
+
 
 **********************************
 
