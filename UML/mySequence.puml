@@ -2,37 +2,40 @@
 
 actor Student
 
-participant "User Interface" as UI
-participant "LoginController" as LC
-participant "User Database" as DB
+participant "Qt Application" as UI
+participant "REST API" as LC
+participant "MySQL Database" as DB
 
 Student -> UI : Enter credentials
 UI -> LC : Submit login request
 LC -> DB : Verify credentials
 DB -> LC : Return verification result
-LC -> UI : Show menu if successful
+LC -> UI : Show menu if successful and return WebToken
 UI -> Student : Display options
 LC -> UI : Return to login if unsuccessful
 
-Student -> UI : Select "View Personal Info"
-UI -> LC : Request info
-LC -> DB : Fetch info
-DB -> LC : Return info
-LC -> UI : Display info
-UI -> Student : Show info
+Student -> UI : Select "View Personal Personal Info"
+UI -> LC : Request Personal Info
+LC -> DB : Fetch Personal Info
+DB -> LC : Return Personal Info
+LC -> UI :  Show Personal Info
+UI -> Student : Display Personal Info
 
 Student -> UI : Select "View Grades"
 UI -> LC : Request grades
 LC -> DB : Fetch grades
 DB -> LC : Return grades
-LC -> UI : Display grades
-UI -> Student : Show grades
+LC -> UI : Show grades
+UI -> Student : Display grades
 
-Student -> UI : Select "Register for Course"
+Student -> UI : Select "Register to Course"
 UI -> LC : Request registration
 LC -> DB : Register student
 DB -> LC : Confirm registration
 LC -> UI : Show confirmation
 UI -> Student : Display confirmation
+
+Student -> UI : Logout"
+UI -> Student : Dsiplay confirmation
 
 @enduml

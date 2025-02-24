@@ -6,7 +6,8 @@ rectangle Application {
     usecase "Log in" as UC_Login
     usecase "View Personal Information" as UC_ViewInfo
     usecase "View Grades" as UC_ViewGrades
-    usecase "Register for Course" as UC_RegisterCourse
+    usecase "Register to Course" as UC_RegisterCourse
+
 }
 
 Student --> UC_Login
@@ -14,5 +15,6 @@ UC_Login --> UC_ViewInfo : "if successful"
 UC_Login --> UC_ViewGrades : "if successful"
 UC_Login --> UC_RegisterCourse : "if successful"
 UC_Login --> UC_Login : "if unsuccessful, return to login"
+
 
 @enduml
